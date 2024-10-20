@@ -1,0 +1,146 @@
+:root {
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+
+    /* Text */
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+    /* Accent */
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin: 20px 0 4px 0;
+}
+
+body {
+    background-color: #29292E;
+    font-family: 'Open Sans';
+}
+
+#page {
+    box-sizing: border-box;
+    width: 1280px;
+    background-color: var(--background-default);
+    border-radius: 24px;
+    padding-bottom: 78px;
+    margin: 48px auto 28px;
+}
+
+main {
+    padding: 78px 80px 0px 80px;
+}
+
+.headline {
+    font-weight: bold;
+    color: var(--text-headline);
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+    border-radius: 28px;
+}
+
+p {
+    color: var(--text-secondary);
+}
+ 
+p.subtitle {
+    font-style: italic;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    padding: 0 11px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 36px 0;
+    background-color: var(--border-primary);
+}
+
+.discover {
+    margin-top: 64px;
+}
+
+p.discover-description {
+    margin-bottom: 64px;
+}
+
+p.good-for {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    padding-left: 30px;
+    margin-bottom: 48px;
+}
+
+ul li.historias {
+    color: var(--accent-blue);
+    font-weight: bold;
+}
+
+ul li.casais {
+    color: var(--accent-purple);
+    font-weight: bold;
+}
+
+ul li.familias {
+    color: var(--accent-pink);
+    font-weight: bold;
+}
+
+ul li.orcamentos {
+    color: var(--accent-orange);
+    font-weight: bold;
+}
+
+footer {
+    padding: 0 80px;
+    margin-top: 40px;
+}
+
+footer > p {
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+p.make-by img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+p.make-by {
+    color: var(--text-secondary);
+    font-family: 'Alice';
+    font-weight: bold;
+}
